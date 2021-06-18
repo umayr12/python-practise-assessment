@@ -158,7 +158,10 @@ def four(input):
 	# You may need to create a list of numbers from 0 to i, take a look at help(range).
 
 def five(input):
-	return 1
+	total = 1
+    for num in range(1,input+1):
+		total = total*num
+		return total 
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
 
